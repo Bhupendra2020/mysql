@@ -110,7 +110,7 @@ To import a SQL backup which is stored for example in the folder `/tmp` in the h
 
 Also you can start the new database initializing it with the SQL file:
 
-        sudo docker run -d -v /path/in/host:/var/lib/mysql -e STARTUP_SQL="/tmp/<dump.sql>" tutum/mysql
+        sudo docker run -d -v /path/in/host:/var/lib/mysql -e STARTUP_SQL="/tmp/<dump.sql>" fnubhupen/mysql
 
 Where `<user>` and `<pass>` are the database username and password set earlier and `<dump.sql>` is the name of the SQL file to be imported.
 
