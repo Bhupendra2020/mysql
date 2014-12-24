@@ -49,7 +49,7 @@ Setting a specific password for the admin account
 If you want to use a preset password instead of a random generated one, you can
 set the environment variable `MYSQL_PASS` to your specific password when running the container:
 
-        docker run -d -p 3306:3306 -e MYSQL_PASS="mypass" fnubhupen/mysql
+        docker run -d -p 3306:3306 -e MYSQL_PASS="1234" fnubhupen/mysql
 
 You can now test your deployment:
 
